@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-      "target": "ES2022",
-      "lib": ["ES2022", "dom"],
-      "types": ["cypress", "node"],
+      "target": "ES6",
       "moduleResolution": "node",
+      "lib": ["es6", "dom"],
+      "types": ["cypress", "node"],
       "resolveJsonModule": true,
       "allowSyntheticDefaultImports": true,
       "esModuleInterop": true,
