@@ -7,7 +7,7 @@
   "description": "Cypress Cucumber Automation Framework",
 
     "scripts": {
-      "full-regression-headed-chrome": "cypress open --headed --browser chrome --spec 'cypress/e2e/*.feature' && node cucumber-html-report",
+      "full-regression-headed-chrome": "cypress run --headed --browser chrome --spec 'cypress/e2e/*.feature' && node cucumber-html-report",
       "full-regression-headless-chrome": "cypress run --spec 'cypress/e2e/*.feature' && node cucumber-html-report",
       "contact-us-tests-headless": "cypress run -e TAGS=\"@contact-us\"  && node cucumber-html-report",
       "api-tests": "cypress run -e TAGS=\"@api\" --spec 'cypress/e2e/Api.feature' --headed --browser chrome  && node cucumber-html-report",
