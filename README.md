@@ -45,7 +45,12 @@ Cypress implementation with Cucumber,TypeSCript and Page Object Model.
 
 - run the command ```npx cypress open``` and click on the required feature files
 
+### ScreenRecording results
+
+- /TestResultsEvidence
+
 ### reports
 
 - Multi Cucumber Html reports will be saved in support/reports/html-multi-report folder  
 - Json report will be saved in reports/cucumber-json folder
+
